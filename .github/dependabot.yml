@@ -1,9 +1,17 @@
 version: 2
+registries:
+  utilities-registry:
+    type: maven-repository
+    url: https://maven.pkg.github.com/jcequispe/demo-utilities-jakarta
+    username: jcequispe
+    password: ${{ secrets.GITHUB_TOKEN }}
 updates:
   - package-ecosystem: "maven"
     directory: "/"
     schedule:
       interval: "daily"
+    registries:
+      - utilities-registry
     open-pull-requests-limit: 10
     reviewers:
       - "jcequispe"
