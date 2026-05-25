@@ -29,9 +29,9 @@
         <dependencies>
             <!-- Utilities Library with multiple CVEs - v2.1.2 patched -->
             <dependency>
-                <groupId>com.demo</groupId>
+                <groupId>com.github.jcequispe</groupId>
                 <artifactId>demo-utilities-jakarta</artifactId>
-                <version>2.1.2</version>
+                <version>v2.1.2</version>
             </dependency>
 
             <!-- Jakarta Servlet API -->
