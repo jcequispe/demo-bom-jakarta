@@ -7,7 +7,7 @@
 
     <groupId>com.demo</groupId>
     <artifactId>demo-bom-jakarta</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>Demo BOM Jakarta</name>
 
@@ -20,11 +20,11 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Utilities Library (contains commons-collections) - v1.0.1 with security update -->
+            <!-- Utilities Library with multiple CVEs - v2.1.0 vulnerable -->
             <dependency>
                 <groupId>com.demo</groupId>
                 <artifactId>demo-utilities-jakarta</artifactId>
-                <version>1.0.1</version>
+                <version>2.1.0</version>
             </dependency>
 
             <!-- Jakarta Servlet API -->
