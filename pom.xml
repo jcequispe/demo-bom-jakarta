@@ -14,26 +14,17 @@
     <properties>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- VULNERABLE VERSION -->
-        <commons.collections.version>3.2.1</commons.collections.version>
         <jakarta.servlet.version>6.0.0</jakarta.servlet.version>
         <spring.boot.version>3.3.0</spring.boot.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <!-- Utilities Library (registered in BOM) -->
+            <!-- Utilities Library (contains commons-collections) -->
             <dependency>
                 <groupId>com.demo</groupId>
                 <artifactId>demo-utilities-jakarta</artifactId>
                 <version>1.0.0</version>
-            </dependency>
-
-            <!-- Apache Commons Collections - VULNERABLE 3.2.1 (or 4.0+) -->
-            <dependency>
-                <groupId>commons-collections</groupId>
-                <artifactId>commons-collections</artifactId>
-                <version>${commons.collections.version}</version>
             </dependency>
 
             <!-- Jakarta Servlet API -->
