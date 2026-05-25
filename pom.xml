@@ -57,4 +57,13 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- Publish to GitHub Packages -->
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/jcequispe/demo-bom-jakarta</url>
+        </repository>
+    </distributionManagement>
+
 </project>
