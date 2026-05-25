@@ -8,7 +8,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    security-updates-only: true
     registries:
       - utilities-registry
     open-pull-requests-limit: 10
