@@ -3,7 +3,7 @@ registries:
   utilities-registry:
     type: maven-repository
     url: https://maven.pkg.github.com/jcequispe/demo-utilities-jakarta
-    username: x-access-token
+    username: jcequispe
     password: $DEPENDABOT_GITHUB_TOKEN
 updates:
   - package-ecosystem: "maven"
